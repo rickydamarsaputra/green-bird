@@ -62,7 +62,24 @@ header a:hover {
 	text-decoration-thickness: 2px;
 	text-decoration-color: var(--color-dark-green);
 }
+.grid-item {
+	width: 200px;
+}
+.grid-item--width2 {
+	width: 400px;
+}
 /* gallery section */
+
+/* video section */
+.video_section h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: underline;
+	text-underline-offset: 1.5rem;
+	text-decoration-thickness: 2px;
+	text-decoration-color: var(--color-dark-green);
+}
+/* video section */
 
 /* mobile responsive */
 @media (max-width: 575.98px) {
@@ -83,10 +100,25 @@ header a:hover {
 
 	.hero_section h1 {
 		font-size: 1.5rem;
+		text-underline-offset: 0.5rem;
 	}
 
 	.hero_section p {
 		font-size: 1rem;
 	}
 	/* hero section */
+
+	/* gallery section */
+	.gallery_section h1 {
+		font-size: 1.5rem;
+		text-underline-offset: 0.5rem;
+	}
+	/* gallery section */
+
+	/* video section */
+	.video_section h1 {
+		font-size: 1.5rem;
+		text-underline-offset: 0.5rem;
+	}
+	/* video section */
 }

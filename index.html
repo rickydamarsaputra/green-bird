@@ -4,20 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Green Bird Villa - Galeri</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Bahariprawara</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/page.css">
+  <link rel="stylesheet" href="./assets/css/viewer.min.css">
 </head>
 
-<body>
+<body id="page-top">
 
   <!-- header -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./assets/images/logo-white.png" alt="logo" width="200">
+          <img src="./assets/images/logo-white.png" alt="logo" width="200" style="object-fit: contain;">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +28,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link text-white fw-semibold" href="#">Beranda</a>
-            <a class="nav-link text-white fw-semibold" href="#">Virtual Tour</a>
-            <a class="nav-link text-white fw-semibold" href="#">Galeri</a>
-            <a class="nav-link text-white fw-semibold" href="#">Profile</a>
+            <a class="nav-link text-white" href="#">Beranda</a>
+            <a class="nav-link text-white" href="#">Virtual Tour</a>
+            <a class="nav-link text-white" href="#">Galeri</a>
+            <a class="nav-link text-white" href="#">Profile</a>
           </div>
         </div>
       </div>
@@ -48,13 +51,69 @@
   <!-- gallery section -->
   <section class="gallery_section my-5">
     <h1 class="text-center">Galeri Foto</h1>
+    <div class="bg-light py-4 mt-5">
+      <div class="container">
+        <div class="row" id="gal">
+          <!-- Loop -->
+        </div>
+      </div>
+    </div>
   </section>
   <!-- gallery section -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+  <!-- video section -->
+  <section class="video_section my-5">
+    <h1 class="text-center">Video Pengenalan</h1>
+    <div class="container">
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-lg-8">
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D43FrEzgOPI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- video section -->
+
+  <!-- footer -->
+  <footer class="footer pt-5 bg-dark text-white">
+    <div class="container">
+      <div class="row pb-5 align-items-center">
+        <div class="col-md-6">
+          <h3 class="text-white pb-3">Contact Us - Green Bird Villa</h3>
+          <div>
+            <ul>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> +62 361 9081478</li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i> greenbirdvilla@gmail.com </li>
+              <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> 089519378160</li>
+              <li><i class="fa-brands fa-facebook-f"></i></i> Green Bird Villa Ubud</li>
+              <li><i class="fa-brands fa-instagram"></i> greenbirdvilla</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex flex-md-row-reverse">
+          <img class="img-fluid pe-3" src="./assets/images/logo-stikom.png" alt="logo stikom" style="max-height: 120px">
+        </div>
+      </div>
+  </footer>
+  <!-- footer -->
+
+  <!-- back to top  -->
+  <a href="#page-top" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+  <!-- back to top  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="./assets/js/viewer.js"></script>
+  <script src="./assets/js/page.js"></script>
+  <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
