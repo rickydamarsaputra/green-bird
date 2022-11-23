@@ -2,7 +2,8 @@
 	--color-white: #ffffff;
 	--color-black: #000000;
 	--color-green: #bfd834;
-	--color-dark-green: #206a5d;
+	--color-dark-green: #f69e62;
+	/* --color-dark-green: #206a5d; */
 }
 
 /* header */
@@ -10,9 +11,9 @@ header a {
 	transition: 300ms !important;
 }
 
-header a:hover {
+/* header a:hover {
 	color: var(--color-green) !important;
-}
+} */
 /* header */
 
 /* hero section */
@@ -20,6 +21,7 @@ header a:hover {
 	height: 100vh;
 	background-image: url('../images/hero-bg.jpg');
 	background-size: cover;
+	background-position: center;
 	position: relative;
 }
 

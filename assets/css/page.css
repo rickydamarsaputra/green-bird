@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 :root {
-    --main-color: rgb(32 106 93);
+    /* --main-color: rgb(32 106 93); */
+    --main-color: #f69e62;
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
 }
@@ -284,9 +285,12 @@ header.masthead .masthead-heading {
     text-decoration: none;
 }
 
-.back-to-top:hover {
+/* .back-to-top:hover {
     background: #9ab74d;
     color: #fff;
+} */
+a:hover{
+    color: #fff!important;
 }
 
 .audio-btn {
@@ -529,7 +533,7 @@ fieldset[disabled] .btn-custom-primary.active {
     #mainNav.navbar-shrink {
         /* padding-top: 1rem;
     padding-bottom: 1rem; */
-        background-color: #206a5d;
+        background-color: var(--main-color);
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1em;
