@@ -1,11 +1,11 @@
 var list = document.getElementById('gal');
 
 list.innerHTML = '';
-for (var i = 1; i <= 34; i++) {
+for (var i = 1; i <= 48; i++) {
 	list.innerHTML += `
 	<div class="col-lg-3 col-sm-6 mb-4">
 		<div class="container-img rounded">
-				<img class="img-fluid image rounded shadow" src="assets/images/gallery/v2/img (${i}).jpg" alt="keterangan gallery ${i}" />
+				<img class="img-fluid image rounded shadow" src="assets/images/gallery/v3/img (${i}).jpg" alt="keterangan gallery ${i}" />
 			</div>
 	</div>
 	`;
