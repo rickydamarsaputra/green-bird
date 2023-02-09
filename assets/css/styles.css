@@ -114,6 +114,10 @@ header a {
 	text-decoration-thickness: 2px;
 	text-decoration-color: var(--color-dark-green);
 }
+
+.card-img-top {
+	height: 450px;
+}
 /* team section */
 
 /* mobile responsive */
@@ -175,6 +179,9 @@ header a {
 	.team_section h1 {
 		font-size: 1.5rem;
 		text-underline-offset: 0.5rem;
+	}
+	.card-img-top {
+		height: 550px;
 	}
 	/* team section */
 }
